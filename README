@@ -7,9 +7,11 @@ This extremely simple jquery accordion requires the following markup:
 - Each accordion header to be in an h1 tag
 - Each accordion content item to be in a p tag
 
+The script will automatically convert this to a working accordion. You can easily adjust accordion.js to read different markup using the jquery selectors
+
 Usage:
 
-- Add the css class 'open' to any h1 element you wish to start opened (nornmally only one should be open to start)
-- Add the css class 'closed' to any h1 element you wish to start closed (ie all the others)
+- In your html, add the css class 'open' to any h1 element you wish to start opened (nornmally only one should be open to start)
+- In your html, add the css class 'closed' to any h1 element you wish to start closed (ie all the others)
+- Adjust the css as you see fit
 
-The script will automatically convert this to a working accordion. 
