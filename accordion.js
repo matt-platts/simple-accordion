@@ -1,3 +1,6 @@
+// accordion.js
+// by Matt Platts (mattplatts@gmail.com)
+
 var accordion = accordion || {
 	element: '',
 	init: function(el){
