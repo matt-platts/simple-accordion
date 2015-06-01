@@ -1,0 +1,15 @@
+Simple Accordion by Matt Platts
+
+This extremely simple jquery accordion requires the following markup:
+
+- An outer div called 'accordion'
+- Each step of the accordion to be in a 'section' tag
+- The accordion header to be in an h1 tag
+- The accordion content to be in a p tag
+
+Usage:
+
+- Add the css class 'open' to any h1 element you wish to start opened
+- Add the css class 'closed' to any h1 element you wish to start closed
+
+The script will automatically convert this to a working accordion. 
