@@ -7,18 +7,9 @@ a { color:blue;}
 	padding: 10px;
 }
 
-header {
-	text-align:left;
-	float:left;
-	width:100%;
-}
-
 header #logoDiv {
 	float:left;
-	width:150px;
-}
-header #logoDiv #logo {
-	display:none;
+	width:210px;
 }
 
 header h1 {
@@ -40,62 +31,9 @@ header h2 {
 	margin-top:0px;
 }
 
-header p.right {
-	float:right;
-	clear:both;
-	font-size:0.8em;
-}
-
-#headerBg {
-	color:#2f6fe0;
-}
-
-#header_panel {
-	clear:both;
-	background-color:#2f6fe0;
-	border-radius:10px;
-	height:171px;
-}
-
-#header_panel p {
-	float:left;
-	display:block;
-	max-width:40%;
-	margin:25px;
-	margin-right:0px;
-	color:white;
-	margin-bottom:0px;
-}
-
 #accordion {
 	clear:both;
 	float:left;
-}
-
-aside {
-	float:left;
-	width:150px;
-	text-align:left;
-	margin-top:10px;
-}
-
-aside ul {
-	list-style-type:none;
-	padding:0;
-}
-aside ul li {
-	border-bottom:1px #eee solid;
-	margin-bottom:5px;
-}
-aside ul li span {
-	clear:both;
-	display:block;
-	font-size:0.8em;
-	margin-bottom:5px;
-}
-aside ul li a {
-	color:#2f6fe0;
-	text-decoration:none;
 }
 
 #accordion section {
