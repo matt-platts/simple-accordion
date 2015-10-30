@@ -3,13 +3,13 @@ Simple Accordion by Matt Platts
 This extremely simple jquery accordion requires the following markup:
 
 - An outer div with a unique id - this is passed to the acordion function 
-- Each step of the accordion, header and content item to be in a uinique HTML tag. A good example is:
+- Each step of the accordion, header and content item to be in a *unique* HTML tag *per type* (saves adding lots of classes). A good example is:
   - Each step of the accordion to be in a 'section' tag
   - Each accordion header to be in an h1 tag
   - Each accordion content item to be in a p tag
+- You can nest other elements inside these, and this is purely an example.
 
-
-The script will automatically convert this to a working accordion.
+The script will automatically convert this markup to a working accordion.
 
 Usage:
 
